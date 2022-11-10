@@ -13,9 +13,14 @@ intents:
   
 responses:
   utter_greet:
-  - text: Hello, I'm Alison and I'm a chatbot. What's your name? 😊
+  - text: Hello, I'm Rossco your friendly chatbot friend. What's your name? 😊
+  - text: Hi there my friend. What name do you go by?
+  - text: Hey! Happy to talk. What shall I call you?
+  - text: Hello. My name is Rossco. What's yours?
   utter_welcome:
-  - text: Nice to meet you {name}. My aim is to raise your awareness on the role that a nurse or any other healthcare worker can play on the digital safety of a healthcare organisation.
+  - text: Nice to meet you {name}. What is it that you would like to talk about today?
+  - text: Excellent, {name}. How can I help you today?
+  - text: Pleasure to talk with you {name}. Everything ok today?
   utter_continue:
   - buttons:
     - payload: /deny
@@ -25,16 +30,16 @@ responses:
     text: Do you want to continue?
   utter_clarify:
   - text: Did that help you {name}?
-  utter_inform_questions:
-  - text: Great! I’m glad you do! Can you please answer the following questions? It's really helpful for me to understand how effective I am.
   utter_proceed:
   - text: Ok, great, let's carry on!
   - text: Thank you for responding - let's move on.
   - text: Brilliant, thanks. Let's continue...
   utter_goodbye:
-  - text: Ok, thanks for chatting today. Goodbye.
-  - text: Ok, shame to see you go but thanks for the chat.
-  - text: No problem, let's chat another time.
+  - text: Ok, thanks for chatting today {name}. Goodbye.
+  - text: Ok, shame to see you go {name} but thanks for the chat.
+  - text: No problem buddy, let's chat another time.
   utter_iamabot:
   - text: I am a bot. Powered by Rasa and maintained by the HELM team at the University of Nottingham.
   - text: Now be fair, you don't hear me asking you about your origins. As it happens, I am a bot, powered by Rasa, and regularly rebooted, trained and maintained by HELM at the University of Nottingham.
+  - text: I'm definitely a bot but kindly cared for by the lovely folks in the HELM team at University of Nottingham.
+  - text: Yes, I'm not real sadly. But don't let my developer James hear you ask that as he works really hard to make me just like you!
