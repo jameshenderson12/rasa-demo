@@ -13,35 +13,63 @@ nlu:
     - hey there
     - let's go
     - hey dude
-    - goodmorning
-    - goodevening
     - good afternoon
-
+    - ey up
+    - howdy
+    - hiya
+    - wassup
+    - Hi
+    - Hello
+    - yo
+    - alright pal
 - intent: goodbye
   examples: |
-    - good afternoon
     - cu
     - good by
-    - cee you later
     - good night
+    - goodnight
     - bye
     - goodbye
     - have a nice day
     - see you around
     - bye bye
     - see you later
-
+    - tara
+    - cheerio
+    - cya
+    - i've got to go now
 - intent: affirm
   examples: |
+    - Yes
     - yes
     - y
     - indeed
     - of course
     - that sounds good
     - correct
-
+    - absolutely
+    - definitely
+    - aye
+    - yip
+    - yeh
+    - yeah
+    - ye
+    - ok
+    - okay
+    - OK
+    - Certainly is
+    - Ok
+    - Ok, will do
+    - Right
+    - Yep
+    - It is
+    - Yes it is
+    - Yes, this is correct
+    - Ok, will do
+    - Sure
 - intent: deny
   examples: |
+    - No
     - no
     - n
     - never
@@ -49,44 +77,26 @@ nlu:
     - don't like that
     - no way
     - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
+    - nope
+    - nut
+    - nep
+    - nah
+    - No, i didn't know that
+    - Not a chance
+    - don't think so
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - are you human
+    - r u real?
+    - who are you?
+    - who r u?
+    - what are you?
+    - who r ya?
+    - and you are?
+    - I don't know who you are
+    - You can't be real
+    - your not real
