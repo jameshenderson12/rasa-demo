@@ -1,34 +1,40 @@
 version: "2.0"
 
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
 intents:
   - greet
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
-
+  
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
+  - text: Hello, I'm Alison and I'm a chatbot. What's your name? 😊
+  utter_welcome:
+  - text: Nice to meet you {name}. My aim is to raise your awareness on the role that a nurse or any other healthcare worker can play on the digital safety of a healthcare organisation.
+  utter_continue:
+  - buttons:
+    - payload: /deny
+      title: 👎 No
+    - payload: /affirm
+      title: 👍 Yes
+    text: Do you want to continue?
+  utter_clarify:
+  - text: Did that help you {name}?
+  utter_inform_questions:
+  - text: Great! I’m glad you do! Can you please answer the following questions? It's really helpful for me to understand how effective I am.
+  utter_proceed:
+  - text: Ok, great, let's carry on!
+  - text: Thank you for responding - let's move on.
+  - text: Brilliant, thanks. Let's continue...
   utter_goodbye:
-  - text: "Bye"
-
+  - text: Ok, thanks for chatting today. Goodbye.
+  - text: Ok, shame to see you go but thanks for the chat.
+  - text: No problem, let's chat another time.
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+  - text: I am a bot. Powered by Rasa and maintained by the HELM team at the University of Nottingham.
+  - text: Now be fair, you don't hear me asking you about your origins. As it happens, I am a bot, powered by Rasa, and regularly rebooted, trained and maintained by HELM at the University of Nottingham.
