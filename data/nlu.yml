@@ -22,6 +22,128 @@ nlu:
     - Hello
     - yo
     - alright pal
+- intent: give_name
+  examples: |
+    - My name is [James](name)
+    - My name is [Amanda](name)
+    - My name is [Emma](name)
+    - My name is [Jane](name)
+    - My name is [George](name)
+    - My name is [Heather](name)
+    - My name is [Kirstie](name)
+    - My name is [Michael](name)
+    - My name is [Bob](name)
+    - My name is [Steven](name)
+    - My name is [Andrew](name)
+    - My name is [Anshul](name)
+    - I am [John](name)
+    - I'm [David](name)
+    - I'm [Rakesh](name)
+    - I'm [Sonya](name)
+    - I'm [Rachel](name)
+    - I'm [Charlotte](name)
+    - I'm [Stefan](name)
+    - I am called [Paul](name)
+    - I am called [Fraser](name)
+    - I am called [Tom](name)
+    - I am called [Tina](name)
+    - I am called [Claude](name)
+    - I am called [Mikel](name)
+    - [Stathis](name)
+    - [Maria](name)
+    - [Benjamin](name)
+    - [Matthew](name)
+    - [Lina](name)
+    - [Kamila](name)
+    - [Aaron](name)
+    - [Cherry](name)
+    - [Mark](name)
+    - I am [Richard](name).
+    - I am [Patrick](name).
+    - I am [Sheila](name).
+    - I am [Anja](name).
+    - I am [Anka](name).
+    - I am [Deborah](name).
+    - [Shaun](name) is my name
+    - [Lisa](name) is my name
+    - [Sharon](name) is my name
+    - [Sandy](name) is my name
+    - [Peter](name) is my name
+    - [Violet](name) is my name
+    - [Lloyd](name) is my name
+    - [Damon](name) is my name
+    - [Gregg](name) is my name
+    - My name's [Tracey](name)
+    - My name's [Barbara](name)
+    - My name's [Jack](name)
+    - My name's [Jill](name)
+    - My name's [Sarah](name)
+    - My name's [José](name)
+    - My name's [Simon](name)
+    - Name's [Mike](name)
+    - Name's [Leo](name)
+    - Name's [Donna](name)
+    - Name's [Raphael](name)
+    - Name's [Edward](name)
+    - Name's [Henry](name)
+    - Name's [Rose](name)
+    - Name's [Ursula](name)
+    - [Sylvia](name)
+    - [Robert](name)
+    - [Timothy](name)
+    - [Alex](name)
+    - [Susan](name)
+    - [Marco](name)
+    - [Pedro](name)
+    - [Ryan](name)
+    - [Daisy](name)
+    - [Penny](name)
+    - [Sam](name)
+    - [Ayrton](name)
+    - [Sienna](name)
+    - [Joshua](name)
+    - [Harris](name)
+    - [James](name)
+    - [Bradley](name)
+    - [Isla](name)
+    - [Hunter](name)
+    - [Emma-Jayne](name)
+    - [Emily](name)
+    - I'm [Lina](name)!
+    - I'm [Roger](name)
+    - [Jessica](name)
+    - [Catherine](name)
+    - [Kate](name)
+    - I'm [James](name)
+    - [Roger](name)
+    - I'm [Simon](name)
+    - [james](name)
+    - I am [James](name)
+    - I'm [Richard](name)
+    - My name's [David](name)
+    - I'm [Mike](name)
+    - My name is [Cherry](name).
+    - I'm [Paul](name)
+    - Hi My name is [Stathis](name)
+    - [Matt](name)
+    - I'm [Gillian](name)
+    - I am called [Herbert](name)
+    - My name is [Claire](name)
+    - My name is [Colin](name)
+    - I am called [Diego](name).
+    - [Gerald](name)
+    - [Richard](name)
+    - [Amanda](name)
+    - [Gill](name)
+    - [Lydia](name)
+    - [Kirstie](name)
+    - [Simon](name)
+    - [Shaun](name)
+    - [Heather](name)
+    - [Mike](name)
+    - [Mary](name)
+    - [George](name)
+    - [Yvonne](name)    
 - intent: goodbye
   examples: |
     - cu
