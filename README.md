@@ -1,2 +1,2 @@
-# rasa-init
- Initial basic configuration for Rasa X deployment.
+# rasa-demo
+ Demonstration example based on initial Rasa deployment
