@@ -222,3 +222,100 @@ nlu:
     - I don't know who you are
     - You can't be real
     - your not real
+- intent: 360_video_virtual_reality
+  examples: |
+    - Is 360 video and virtual reality the same?
+- intent: 360videos
+  examples: |
+    - What are 360 videos?
+    - I want to create 360 videos
+    - Can I create 360 videos?
+    - 360 degrees education
+- intent: about_360visi
+  examples: |
+    - What is 360ViSi?
+    - What is this about?
+    - Can you explain me about the project
+- intent: ask_screenstory_details
+  examples: |
+    - What kind of company is Screen Story?
+    - What is Screen Story?
+    - Tell me about Screen Story
+    - Screen Story?
+- intent: aspire
+  examples: |
+    - How experienced are you with the ASPIRE process
+    - Do you know about ASPIRE?
+    - What can you tell us about ASPIRE?
+- intent: asset_advantages
+  examples: |
+    - Why are 360ViSi tools assets to health education?
+    - What are the advantages of 360 tools in education?
+- intent: contact_person_information
+  examples: |
+    - Who can I contact for information about 360VISI?
+    - Who is contact person for 360VISI?
+    - How can I get information about 360VISI?
+- intent: create_produce_360_video
+  examples: |
+    - How to make a 360 video?
+    - How to produce 360 video?
+- intent: feel
+  examples: |
+    - How do you do?
+- intent: goals_aims_purpose
+  examples: |
+    - What is the goal of the 360ViSi project?
+    - Aims of the project?
+    - Purpose of the project
+- intent: hotspots
+  examples: |
+    - how do I use the hotspots
+- intent: mika_on_chatbot
+  examples: |
+    - Mikä on chatbot?
+    - Kertoisitko, mikä on chatbot?
+    - Chatbot.  Mikä se on?
+- intent: partner_project
+  examples: |
+    - Who is the best partner in the project?
+    - Who is the most competent partner in the project?
+- intent: partners
+  examples: |
+    - Which countries are involved in 360 visi?
+    - Who are the partners in 360 visi
+- intent: project_leader
+  examples: |
+    - Who is leading the project?
+    - Who's the leader of this project?
+    - What's the name of the leader of the project?
+- intent: tech_height_camera
+  examples: |
+    - What is the best height to film 360-video in?
+    - How high should I put the camera?
+- intent: tools
+  examples: |
+    - What tool do you need to produce 360 video?
+    - Tools for creating  360 video
+    - What equipment to make 360 videos
+- intent: universities
+  examples: |
+    - Which are the participant universities?
+    - Participant universities
+- intent: uses_360
+  examples: |
+    - How can I use 360 videos for education?
+- intent: webpage_information_contact
+  examples: |
+    - How can I find the web page for 360Visi?
+    - What is the link for 360Visi web page?
+    - Does 360VISI have a web page?
+- intent: welcome_input
+  examples: |
+    - Hello, what's your name?
+    - Hi! I'm 360ViSi assistant, need you help?
+    - I'm here to help you, what is your name?
+- intent: why_360
+  examples: |
+    - What's the main advantage of filming in 360?
+    - Why should I film in 360?
