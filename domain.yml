@@ -10,7 +10,28 @@ intents:
   - affirm
   - deny
   - bot_challenge
-  
+  - 360_video_virtual_reality
+  - 360videos
+  - about_360visi
+  - ask_screenstory_details
+  - aspire
+  - asset_advantages
+  - contact_person_information
+  - create_produce_360_video
+  - feel
+  - goals_aims_purpose
+  - hotspots
+  - mika_on_chatbot
+  - partner_project
+  - partners
+  - project_leader
+  - tech_height_camera
+  - tools
+  - universities
+  - uses_360
+  - webpage_information_contact
+  - welcome_input
+  - why_360
 responses:
   utter_greet:
   - text: Hello, I'm Rossco your friendly chatbot friend. What's your name? 😊
@@ -43,3 +64,68 @@ responses:
   - text: Now be fair, you don't hear me asking you about your origins. As it happens, I am a bot, powered by Rasa, and regularly rebooted, trained and maintained by HELM at the University of Nottingham.
   - text: I'm definitely a bot but kindly cared for by the lovely folks in the HELM team at University of Nottingham.
   - text: Yes, I'm not real sadly. But don't let my developer James hear you ask that as he works really hard to make me just like you!
+  utter_360_video_virtual_reality:
+  - text: 360° video can easily be misunderstood as the same as virtual reality (VR). Both are immersive media formats but differ greatly in how complex they are to produce and by their properties for user interaction.  With the irruption and common availability of
+  utter_360videos:
+  - text: Please take a look to this page to find out more information https://360visi.test-quasardynamics.company/
+  - text: You can create 360 videos in https://360visi.test-quasardynamics.company/
+  - text: There is an european project that you can take a look here https://360visi.eu/
+  utter_about_360visi:
+  - text: 360Visi is a project about how to use 360 videos/images for training in Health education. Please take a look to this link for more information
+  - text: 360ViSi is a financial by European Comission to investigate different ways to use 360 videos on the heath education. Please take a look to this link for more information
+  utter_ask_screenstory_details:
+  - text: I would love to tell you about Screen Story. Screen Story is a www.screen.no
+  utter_aspire:
+  - text: Hello, my name is HelmAnswer404. Great to speak with you today. Aspire is a development framework.
+  - text: Good day, a useful development pedagogical framework for creating learning learning resources wouldbe ASPIRE.
+  utter_asset_advantages:
+  - text: Because immersive technology can enhance learning.
+  - text: Many 360 tools do not require access to a lab, which makes it easier for students to train their skills.
+  - text: Digital 360 tools can provide a realistic scenario that students may encounter in work life.
+  utter_contact_person_information:
+  - text: The project learder is Atle Løkken from the University of Stavanger
+  - text: Contact persons for the different participants can be found on this web page:
+  - text: Contact person University of Stavanger: Atle Løkken: atle.lokken@uis.no
+  utter_create_produce_360_video:
+  - text: https://360visi.eu/how-to-produce/
+  - text: https://360visi.eu/2020/11/18/user-guide-for-creating-interactive-360-video/
+  utter_feel:
+  - text: Hi I am the happy super chatbot 360Visi - please visit our website 360visi.eu
+  utter_goals_aims_purpose:
+  - text: The goal of the project is to increase access to training in health education through 360 simulation training
+  - text: It aims to establish methodologies to create 360 tools for ss n education
+  utter_hotspots:
+  - text: click on the icon with the letter i this will give you more information to consider
+  utter_mika_on_chatbot:
+  - text: Chatbot on tietokoneohjelma, joka keskustelee nettisivukävijöiden kanssa.
+  - text: Chatbot on tietokoneohjelma, jonka kanssa voi keskustella.
+  - text: Chatbot on tietokoneohjelma, joka matkii ihmismäistä keskustelua.
+  - text: Chatbot on tietokoneohjelma, joka on suunniteltu käymään keskustelua ihmisen kanssa. Ihminen kirjoittaa tekstiä, ja chatbot vastaa.
+  utter_partner_project:
+  - text: There's a lot of great partners in the project, but in my humble chatbot opinion it's Screen Story.
+  - text: No doubt it's Screen Story!
+  - text: Screen Story is best!
+  - text: That's such an easy question that even a fifth-grader should know!
+  utter_partners:
+  - text: The countries in the 360 visi project are UK, Spain, Norway, Finland
+  - text: The partners in the 360 visi project are University of Stavanger, University of Nottingham, Catholic University of Valencia, Turku University
+  utter_project_leader:
+  - text: The one and only Atle Løkken!
+  - text: Our master Atle Løkken.
+  - text: https://www.uis.no/sites/default/files/2020-11/202_19_09_14.jpg
+  utter_tech_height_camera:
+  - text: The best height is depending on what you're filming, but the general rule is to set the camera in the level of the eyes of the subject you're filming.
+  utter_tools:
+  - text: https://360visi.eu/2022/04/04/technology-and-tools-an-overview/
+  utter_universities:
+  - text: https://360visi.eu/about/
+  utter_uses_360:
+  - text: Easy! I uderstand your concern, but you can do this easily. Check this link where we explain the best practises and tools you can easily use.
+  utter_webpage_information_contact:
+  - text: https://360visi.eu/
+  utter_welcome_input:
+  - text: My name is Robbie. Nice to meet you :)
+  - text: Thank you very much for contacting us
+  utter_why_360:
+  - text: Three words: three hundred sixty degrees (So that's actually four but hey, I'm just a chatbot)
+  - text: There's exactly three hundred and sixty reasons to use 360-video, but I can't list them all up here.  
